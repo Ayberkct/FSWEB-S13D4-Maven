@@ -37,7 +37,7 @@ public class MainTest {
 
     @DisplayName("Point sınıf değişkenleri doğru tipte mi ?")
     @Test
-    public void testPointTypes() {
+    public void testPointTypes() { 
         assertThat(point.getX(), instanceOf(Integer.class));
         assertThat(point.getY(), instanceOf(Integer.class));
     }
